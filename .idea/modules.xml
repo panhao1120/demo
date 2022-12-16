@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/voa.iml" filepath="$PROJECT_DIR$/voa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voa-generator/voa-generator.iml" filepath="$PROJECT_DIR$/voa-generator/voa-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voa-server/voa-server.iml" filepath="$PROJECT_DIR$/voa-server/voa-server.iml" />
+    </modules>
+  </component>
+</project>
