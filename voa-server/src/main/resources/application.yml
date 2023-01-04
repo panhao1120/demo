@@ -2,12 +2,34 @@ server:
   # 端口
   port: 8081
 spring:
+  # Redis配置
+  redis:
+    # Redis服务器地址
+    host: 111.230.238.48
+    # Redis服务器端口
+    port: 6379
+    # Redis服务器端口
+    password: root11208979
+    # Redis服务器端口
+    database: 1
+    # 连接超时时间
+    timeout: 10000ms
+    lettuce:
+      pool:
+        # 最大连接数，默认8
+        max-active: 1024
+        # 最大连接阻塞等待时间，单位毫秒，默认-1ms
+        max-wait: 10000ms
+        # 最大空闲连接，默认8
+        max-idle: 200
+        # 最小空闲连接，默认0
+        min-idle: 5
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/yeb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: 11208979
   hikari:
     #连接池名
     pool-name: DateHikariCP

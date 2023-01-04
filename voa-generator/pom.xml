@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.xq</groupId>
+    <groupId>com.ph</groupId>
     <artifactId>yeb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
@@ -33,7 +33,7 @@
     <dependency>
       <groupId>com.baomidou</groupId>
       <artifactId>mybatis-plus-generator</artifactId>
-      <version>3.5.3</version>
+      <version>3.3.1.tmp</version>
     </dependency>
     <!--freemarker 依赖-->
     <dependency>
